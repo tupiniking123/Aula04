@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  }
+
+  section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: darkseagreen;
+    height: 100vh;
+  }
+  
+  
+  nav {
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    background: linear-gradient(rgb(243, 93, 100),rgb(34, 34, 34));
+    padding: 20px;
+  }
+
+  article {
+    -webkit-flex:3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: burlywood;
+    padding: 10px;
+  }
